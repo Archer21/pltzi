@@ -1,0 +1,32 @@
+// mixins
+button(color=main){
+  background-color color
+  color white
+  padding .6em .8em
+  font-size .8em
+  font-weight bold
+  border-radius .5em
+  text-transform capitalize
+}
+
+zebra(even_color = #eee, odd_color = #ddd, child = '&')
+	{child}:nth-child(odd)
+		background-color odd_color
+	{child}:nth-child(even)
+    background-color even_color
+
+// colors
+accent = #ff4842
+accentDark = #E10700
+main = #7FC719
+mainDark = #598B11
+title  = #fff
+heading = #1C3643
+text = #1C3643
+itemBackground = #F2F2F2
+dark = #000
+border = #dbdbe2
+zebraOdd = #F3F3F6
+zebraEven = #FFFFFF
+facebook = #5e7dc1
+twitter = #60a9de
