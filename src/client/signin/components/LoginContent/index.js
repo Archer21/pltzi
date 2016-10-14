@@ -10,7 +10,7 @@ var el = yo`
       ${socialButton('twitter')}
     </div>
     
-    <a href="#" class="LoginView-emailLoginLink">Ingresas con email?</a>
+    <a href="/email" class="LoginView-emailLoginLink">Ingresas con email?</a>
   </div>
 `
 
